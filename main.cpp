@@ -12,7 +12,7 @@ int main(){
     }
   cin >> d1;
  
-  if(nome(a,d1,c)>-1 && bnome(a,d1,c)<10){
+  if(nome(a,d1,c)>-1 && nome(a,d1,c)<10){
         cout << c << endl;
     } else{
         cout << "non presente" << endl;
