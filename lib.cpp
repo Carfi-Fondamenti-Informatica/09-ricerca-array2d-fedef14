@@ -8,14 +8,11 @@ int nome(char d2[10][20], char d1[10], int &c){
             for(int j=0;j<10;j++){
                 if(d2[j][i] == d1[i]){
             return c;
-                }else{
+                } else{
                     c++;
                 }
 
             }
-            return false;
     }
-
-    }
-
+}
 }
