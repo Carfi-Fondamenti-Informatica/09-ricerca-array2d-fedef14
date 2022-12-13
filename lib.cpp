@@ -1,6 +1,6 @@
 #include "lib.h"
 
-bool nome(char d2[10][20], char d1[10], int &c){
+int nome(char d2[10][20], char d1[10], int &c){
     for(int i=0;i<20;i++){
         if(d2[i] == d1){
             return true;
