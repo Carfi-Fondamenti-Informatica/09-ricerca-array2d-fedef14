@@ -5,15 +5,22 @@ using namespace std;
 int main(){
   char a[10][20];
     char d1[10];
-    int c = 0;
+    int i = 0;
   
   for(int i=0;i<10;i++){
-        cin >> a[i];
+  for(int c=0;c<20;c++){
+  d1[c] = ' ';
+    d2[i][c] = ' ';
+  }
+  }
+  
+  for(int c=0;c<10;c++){
+        cin >> a[c];
     }
   cin >> d1;
  
-  if(nome(a,d1,c)<10){
-        cout << c << endl;
+  if(nome(a,d1,i)==1){
+        cout << i << endl;
     } else{
         cout << "non presente" << endl;
     }
