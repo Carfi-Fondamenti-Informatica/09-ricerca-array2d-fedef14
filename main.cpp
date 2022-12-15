@@ -10,7 +10,7 @@ int main(){
   for(int i=0;i<10;i++){
   for(int c=0;c<20;c++){
   d1[c] = ' ';
-    d2[i][c] = ' ';
+    a[i][c] = ' ';
   }
   }
   
