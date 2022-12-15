@@ -1,1 +1,1 @@
-int nome( char [10][20], char [20], int &);
+bool nome( char [10][20], char [20], int &);
