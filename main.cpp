@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
   char a[10][20];
-    char d1[10];
+    char d1[20];
     int i = 0;
   
   for(int i=0;i<10;i++){
