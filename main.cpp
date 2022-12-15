@@ -20,7 +20,7 @@ int main(){
   cin >> d1;
  
   if(nome(a,d1,i)==1){
-        cout << i << endl;
+        cout << i;
     } else{
         cout << "non presente" << endl;
     }
