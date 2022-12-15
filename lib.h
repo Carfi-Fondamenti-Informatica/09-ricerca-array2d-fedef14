@@ -1,1 +1,1 @@
-int nome( char a[10][20], char d1[10], int &c);
+int nome( char [10][20], char [20], int &);
